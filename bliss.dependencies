@@ -9,7 +9,7 @@
    "remote":      "github",
    "repository":  "BlissRoms-Devices/android_kernel_oneplus_sdm845",
    "target_path": "kernel/oneplus/sdm845",
-   "revision":    "q"
+   "revision":    "q2"
  },
   {
    "remote":      "github",
