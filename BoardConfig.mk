@@ -29,7 +29,9 @@ TARGET_PREBUILT_RECOVERY_RAMDISK := $(DEVICE_PATH)/ramdisk-recovery.zip
 # GAPPS
 TARGET_GAPPS_OVERRIDE += \
     GoogleCamera \
-    GoogleDialer
+    GoogleDialer \
+    Photos \
+    NfcNci
 
 # inherit from the proprietary version
 -include vendor/oneplus/enchilada/BoardConfigVendor.mk
