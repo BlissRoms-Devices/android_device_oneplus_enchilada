@@ -28,7 +28,6 @@ TARGET_PREBUILT_RECOVERY_RAMDISK := $(DEVICE_PATH)/ramdisk-recovery.zip
 
 # GAPPS
 TARGET_GAPPS_OVERRIDE += \
-    GoogleCamera \
     GoogleDialer \
     Photos \
     NfcNci
