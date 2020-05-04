@@ -16,5 +16,18 @@
    "repository":  "BlissRoms-Devices/proprietary_vendor_oneplus",
    "target_path": "vendor/oneplus",
    "revision":    "q2"
+  },
+   {
+   "remote":      "github",
+   "repository":  "BootleggersROM-Devices/vendor_oneplus_camera",
+   "target_path": "vendor/oneplus/camera",
+   "revision":    "ten"
+  },
+   {
+   "remote":      "github",
+   "repository":  "BootleggersROM-Devices/device_oneplus_common",
+   "target_path": "device/oneplus/common",
+   "revision":    "ten"
   }
+
 ]
