@@ -21,10 +21,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from enchilada device
 $(call inherit-product, device/oneplus/enchilada/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common bliss stuff.
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_enchilada
+# Boot Animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+PRODUCT_NAME := bliss_enchilada
 PRODUCT_DEVICE := enchilada
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
