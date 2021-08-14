@@ -15,7 +15,7 @@
    "remote":      "github",
    "repository":  "TheMuppets/proprietary_vendor_oneplus",
    "target_path": "vendor/oneplus",
-   "revision":    "r-op6"
+   "revision":    "lineage-18.1"
   },
    {
    "remote":      "github",
