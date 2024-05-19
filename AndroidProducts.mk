@@ -16,8 +16,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/bliss_enchilada.mk
-
-COMMON_LUNCH_CHOICES := \
-    bliss_enchilada-user \
-    bliss_enchilada-userdebug \
-    bliss_enchilada-eng
